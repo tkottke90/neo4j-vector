@@ -1,4 +1,4 @@
-FROM neo4j:5.26.5-community
+FROM neo4j:2025.07-community
 
 ENV NEO4J_PLUGINS=["apoc"]
 ENV NEO4J_apoc_export_file_enabled=true
